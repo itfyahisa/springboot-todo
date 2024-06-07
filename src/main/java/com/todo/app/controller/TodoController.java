@@ -1,4 +1,4 @@
-package com.todo.app.service;
+package com.todo.app.controller;
 
 import java.util.List;
 
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.todo.app.exception.ItemNotFoundException;
 import com.todo.app.model.Todo;
+import com.todo.app.service.TodoService;
 
 //コントローラ実装
 @RestController
